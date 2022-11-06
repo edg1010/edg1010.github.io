@@ -1,0 +1,241 @@
+body {
+    background: #51504d;
+}
+
+#container {
+    width: 900px;
+    height: 900px;
+    background: #51504d;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.lightClicked {
+    background: #f7f76a !important;
+}
+
+.darkClicked {
+    background: #bacb2b !important;
+}
+.lightClicked2 {
+    background: #f7f76a !important;
+}
+
+.darkClicked2 {
+    background: #bacb2b !important;
+}
+.moveListCapture::before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border: 5px solid rgba(0, 0, 0, 0.15);
+}
+
+.moveList::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.BlackRook::after {
+    background: url("Assets/DarkRook.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackKnight::after {
+    background: url("Assets/DarkKnight.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackBishop::after {
+    background: url("Assets/DarkBishop.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackQueen::after {
+    background: url("Assets/DarkQueen.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackRookMenu {
+    background: url("Assets/DarkRook.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackKnightMenu {
+    background: url("Assets/DarkKnight.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackBishopMenu {
+    background: url("Assets/DarkBishop.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackQueenMenu {
+    background: url("Assets/DarkQueen.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackKing::after {
+    background: url("Assets/DarkKing.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BlackPawn::after {
+    background: url("Assets/DarkPawn.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteRook::after {
+    background: url("Assets/LightRook.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteKnight::after {
+    background: url("Assets/LightKnight.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteBishop::after {
+    background: url("Assets/LightBishop.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteQueen::after {
+    background: url("Assets/LightQueen.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteRookMenu {
+    background: url("Assets/LightRook.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteKnightMenu {
+    background: url("Assets/LightKnight.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteBishopMenu {
+    background: url("Assets/LightBishop.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteQueenMenu {
+    background: url("Assets/LightQueen.png");
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhiteKing::after {
+    background: url("Assets/LightKing.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.WhitePawn::after {
+    background: url("Assets/LightPawn.png");
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-size: 75px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.BGRED {
+    background: red !important;
+}
